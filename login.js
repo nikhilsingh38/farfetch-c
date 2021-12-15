@@ -1,7 +1,7 @@
 document.querySelector(".singup").addEventListener("click", singuppage);
 
 function singuppage() {
-  window.location.href = "singup.html";
+  window.location.href = "signup.html";
 }
 
 document.querySelector(".btnnext").addEventListener("click", loginpage);
@@ -13,7 +13,7 @@ function loginpage() {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i].itemname == mail && arr[i].itempassword == pass) {
       alert("Login Successfull");
-      window.location.href = "riyazFront.html";
+      window.location.href = "frontpage.html";
       break;
     }
     if (arr[i].itemname != mail && arr[i].itempassword != pass) {

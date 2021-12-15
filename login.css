@@ -2,8 +2,8 @@ body{
     font-family: "gotham-book", sans-serif;
 }
 #container{
-    border: 1px solid turquoise;
-    height: 830px;
+    
+    height: 920px;
     width: 25%;
     margin: auto;
     padding: 50px;

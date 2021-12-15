@@ -35,11 +35,11 @@
         <div class="companylogo"><b>FARFETCH</b></div>
         <div id="search1">
 
-            <button id="login" class="btn_design"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                <p class="lo"></p>
-            </button>
-
-            <select id="navprofile">
+            <a href="login.html"> <button id="login" class="btn_design"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <p class="lo"></p>
+                </button></a>
+            
+            <select id="navprofile" onchange="profile()">
                 <option value=""></option>
                 <option value="account">My Account</option>
                 <option value="order">My Order</option>
@@ -218,17 +218,17 @@
 
 
     <!------------------------------------------------------- main page start ----------------------------------------------->
-    <div class="container1">
-        <div><img
+    <div class="container1" >
+        <div ><img
                 src="https://cdn-static.farfetch-contents.com/cms-cm/in/media/3045614/data/50f78c44765bbde2f00b14d520722dfd.jpg?ratio=1x1_messaging-side&minWidth=637"
                 alt="" height="100%" width="100%"></div>
-        <div id="textdiv">
+        <div id="textdiv" >
             <h1>ENJOY AN EXTRA 30% OFF, PLUS FREE SHIPPING</h1>
             <p>For a limited time, you can shop the world's best selection of designer pieces with an extra 30% off,
                 plus free
                 shipping. This offer is available on selected full-price and sale items; discount automatically applied
                 at checkout</p>
-            <button id="shop" style="margin-left: auto;">
+            <button class="shop" style="margin-left: auto;">
                 Shop Now
             </button>
 
@@ -253,7 +253,7 @@
 
 
     <div class="container3">
-        <div>
+        <div id="hotDeals">
             <img height="100%" width="100%"
                 src="https://cdn-images.farfetch-contents.com/17/09/52/76/17095276_34718175_1000.jpg" alt="">
             <h4>KHAITE</h4>
@@ -264,7 +264,7 @@
                 <p>$1,933</p>
             </div>
         </div>
-        <div>
+        <div id="hotDeals">
             <img height="100%" width="100%"
                 src="https://cdn-images.farfetch-contents.com/16/97/49/76/16974976_37127373_1000.jpg" alt="">
 
@@ -276,7 +276,7 @@
                 <p>$333</p>
             </div>
         </div>
-        <div>
+        <div id="hotDeals">
             <img height="100%" width="100%"
                 src="https://cdn-images.farfetch-contents.com/17/22/12/20/17221220_35002987_1000.jpg" alt="">
 
@@ -288,7 +288,7 @@
                 <p>$1,286</p>
             </div>
         </div>
-        <div>
+        <div id="hotDeals">
             <img height="100%" width="100%"
                 src="https://cdn-images.farfetch-contents.com/17/13/65/15/17136515_34626388_1000.jpg" alt="">
             <h4>The Attico </h4>
@@ -300,7 +300,7 @@
         </div>
     </div>
 
-    <button id="shop" style="margin-bottom: 100px;">Shop Now</button>
+    <button class="shop" style="margin-bottom: 100px;">Shop Now</button>
 
 
     <!-- --------------------------------------------------------------4th container---------------------------------------------------------------------- -->
@@ -314,7 +314,7 @@
                 won’t find anywhere else to the season’s cult logo accessories, discover our curation of luxury gifts
                 for every style
                 and taste</p>
-            <button id="shop" style="margin-left: auto;">
+            <button class="shop" style="margin-left: auto;">
                 Ready And Shop
             </button>
 
@@ -411,7 +411,7 @@
         </div>
     </div>
 
-    <button id="shop" style="margin-bottom: 100px; margin-top: 50px;">Shop Now</button>
+    <button class="shop" style="margin-bottom: 100px; margin-top: 50px;">Shop Now</button>
 
 
 
@@ -572,7 +572,7 @@
         </div>
     </div>
 
-    <button id="shop" style="margin-bottom: 100px; ">Shop Now</button>
+    <button class="shop" style="margin-bottom: 100px; ">Shop Now</button>
 
     <!-- ---------------------------------------------------13th div----------------------------------------------------------------- -->
 
@@ -689,3 +689,4 @@
 
 <script src="fontpage.js"></script>
 <script src="slid.js"></script>
+<script src="topdeals.js"></script>
