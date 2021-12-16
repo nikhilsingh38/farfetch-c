@@ -5,7 +5,7 @@ function otpfun() {
   if (otp == 1234) {
     alert("Payment Successfull");
 
-    window.location.href = "ProductSnuggles.html";
+    window.location.href = "delivery.html";
   } else {
     alert("please check the OTP");
   }
