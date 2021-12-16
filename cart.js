@@ -104,5 +104,5 @@ function discount() {
 }
 
 document.querySelector(".btnc").addEventListener("click", function () {
-  window.location.href = "payment.html";
+  window.location.href = "address.html";
 });
