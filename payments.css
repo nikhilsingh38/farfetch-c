@@ -2,19 +2,17 @@
   margin-top: 100px;
   height: 400px;
   width: 50%;
-  margin: auto;
-  background-color: rgb(252, 252, 252);
+  
+ color: black;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  
 }
 .fo {
   font-size: 25px;
   margin-right: 30px;
   margin-left: 10px;
   margin-top: 10px;
-  color: rgb(94, 85, 85);
+  color: black;
 }
 .name,
 .card,
@@ -26,33 +24,35 @@
   margin-top: 20px;
   font-size: 16px;
   border-radius: 5px;
-  color: silver;
+  color: black;
   border: 1px solid #9e9999;
   /* padding-left: 10px; */
 }
 .name {
-  margin-left: 25px;
+  margin-left: 30px;
   padding-left: 10px;
 }
 .cvv {
-  margin-left: 45px;
+  margin-left: 50px;
   padding-left: 10px;
 }
 .expiery {
-  margin-left: 8px;
+  margin-left: 4px;
   /* padding-left: 10px; */
 }
 .phone {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .gotp{
   margin-top: 40px;
   height: 40px;
   width: 20%;
   margin-left: 20%;
+  background-color: black;
   border-radius: 5px;
   border: 1px solid #eaeaea;
-  border: 1px solid #2ea88e;
+  border: 1px solid black;
+  color: white;
 }
 .gotp:hover{
     background-color: #9a9a9a;
@@ -60,23 +60,8 @@
     font-weight: 550;
     font-size: 15px;
 }
-.cod {
-  margin-top: 40px;
-  height: 40px;
-  width: 20%;
-  margin-left: 20%;
-  border-radius: 5px;
-  border: 1px solid #eaeaea;
-  border: 1px solid #2ea88e;
-  margin-left: 5%;
-  background-color: #2ea88e;
-  color: white;
-}
-.cod:hover{
-    background-color: #248b74 ;
-    font-weight: 600;
-}
-.or {
-  margin-left: 40px;
-  font-size: 20px;
+
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

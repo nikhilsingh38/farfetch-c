@@ -99,7 +99,7 @@ function discount() {
   }
   document.querySelector("#val").value = "";
   document.querySelector(".btnc").addEventListener("click", function () {
-    window.location.href = "payment.html";
+    window.location.href = "address.html";
   });
 }
 

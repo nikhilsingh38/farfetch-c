@@ -346,30 +346,30 @@
         },
         {
             MRP: 300,
-            type: "PEOPLE",
-            dsc: "Black Printed T Shirt",
+            type: "HAY",
+            dsc: "Knot glass ornament",
             discount: 599,
             discountPercentage: 50,
             image_url:
-                "https://pantaloons.imgix.net/img/app/product/5/519666-3913500.jpg?w=313.38000000000005&auto=format",
+                "https://cdn-images.farfetch-contents.com/16/72/59/84/16725984_33736779_1000.jpg",
         },
         {
             MRP: 280,
             type: "AJILE",
-            dsc: "Wine Graphic T-Shirt",
+            dsc: "Splash glass vase",
             discount: 699,
             discountPercentage: 60,
             image_url:
-                "https://pantaloons.imgix.net/img/app/product/4/405223-2266791.jpg?w=313.38000000000005&auto=format",
+                "https://cdn-images.farfetch-contents.com/16/72/75/62/16727562_34042772_1000.jpg",
         },
         {
             MRP: 300,
-            type: "AJILE",
-            dsc: "Men Solid Flip Flops",
+            type: "Balenciaga",
+            dsc: "Triple S sneakers",
             discount: 499,
             discountPercentage: 40,
             image_url:
-                "https://pantaloons.imgix.net/img/app/product/5/524742-3954015.jpg?w=313.38000000000005&auto=format",
+                "https://cdn-images.farfetch-contents.com/15/46/59/53/15465953_28078363_1000.jpg",
         },
         {
             MRP: 240,
@@ -486,11 +486,11 @@
             x.setAttribute("id", "x");
 
             var price = document.createElement("span");
-            price.textContent = "₹" + item.MRP;
+            price.textContent = "$" + item.MRP;
             price.setAttribute("class", "pricing");
 
             var disc = document.createElement("span");
-            disc.textContent = "₹" + item.discount;
+            disc.textContent = "$" + item.discount;
             disc.setAttribute("id", "discStyle");
 
             var discPer = document.createElement("span");
@@ -530,10 +530,7 @@
             // imgDiv.append(x);
         });
 
-        // function cartRedirecting(){
-        //   window.location.href = "CartPage.html"
-        // }
-
+        
     }
 
     function addToCart(item) {
@@ -547,12 +544,7 @@
         cartarr.push(item)
         localStorage.setItem("datas", JSON.stringify(cartarr))
     }
-    // document.querySelector("#cartBtn").addEventListener("click",function(){
-    //   window.location.href="cart.html"
-    // })
-
-
-    // var favItems = document.getElementById("favId").addEventListener("click", fav)
+    
 
     function fav(item) {
         if (favarr.includes(item)) {
