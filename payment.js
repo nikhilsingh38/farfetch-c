@@ -16,7 +16,7 @@ function check() {
   }
   if (expiery.length == 6) {
   } else {
-    alert("Wrong Expiery Month Details");
+    alert("Wrong Expiry Month Details");
   }
   if (phone.length == 10) {
   } else {
