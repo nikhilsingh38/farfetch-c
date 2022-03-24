@@ -4,7 +4,7 @@ A luxury fashion retail platform that sells products from over boutiques and bra
 This is clone of farfetch.com, where I have used HTML, CSS and Javascript to achieve this.
 In this project I have tried to clone the farfetch website. I had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
-![logo purplle](https://user-images.githubusercontent.com/67849097/146675002-714b6f21-2573-43f0-83f0-3449230aa5c0.png)
+
 
 <!-- ### Live Site(https://purplle.vercel.app/) -->
 
